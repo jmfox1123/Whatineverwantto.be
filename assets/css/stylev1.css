@@ -1,0 +1,42 @@
+/* Default styles */
+
+*{
+	margin: 0;
+}
+body{
+	font-family: Tahoma,Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	background-image: url(/assets/img/deserve_bg.jpg);
+}
+h1{
+	font-size: 28px;
+	font-weight: normal;
+}
+/* Basic classes */
+a:link {
+	text-decoration:none;
+	color: white;
+}
+a:visited {
+    color: white;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+.overflow{
+	overflow: hidden;
+	width: 100%;
+}
+.initialbox{
+	margin: auto;
+	margin-top: 10%;
+	background-color: #f8f8f8;
+	border: 1px solid #ebebeb;
+	border-bottom: 3px solid #ebebeb;
+	padding: 10px 15px 15px 15px;
+	border-radius: 3px;
+	width: 50%;
+	text-align: center;
+}
